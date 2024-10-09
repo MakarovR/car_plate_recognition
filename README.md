@@ -4,30 +4,30 @@
 
 Использовался предобученный детектор на основе каскадов Хаара (метод Виолы-Джонса)
 
-![](https://github.com/MakarovR/car_plate_recognition/images/pic2.jpg)
+![](https://github.com/MakarovR/car_plate_recognition/blob/main/images/pic2.jpg)
 
 ## 2. Расчет угла наклона номерного знака
 
 Определение угла наклона номерного знака производилось по алгоритму Хафа для горизонтальных границ на основе сегментации по фильтру Лапласа
 
-![](https://github.com/MakarovR/car_plate_recognition/images/pic3.jpg)
+![](https://github.com/MakarovR/car_plate_recognition/blob/main/images/pic3.jpg)
 
 ## 3. Определение области с символами номерного знака
 
 Для определения области с символами использовался предобученный детектор на основе каскадов Хаара
 
-![](https://github.com/MakarovR/car_plate_recognition/images/pic4.jpg)
+![](https://github.com/MakarovR/car_plate_recognition/blob/main/images/pic4.jpg)
 
 ## 4. Данные для обучения ИНС
 
 Для обучения нейронной сети по классификации символов номерного знака, помимо реальных изображений символов, использовалась аугментация, для увеличения объема обучающей выборки
 
-![](https://github.com/MakarovR/car_plate_recognition/images/pic5.jpg)
+![](https://github.com/MakarovR/car_plate_recognition/blob/main/images/pic5.jpg)
 
 ## 5. Результат работы модели по распознаванию символов номерного знака
 
 При распознавании с применением алгоритма скользящего окна, удалялись символы с низкой вероятностью, выделяются символы с максимальными суммами вероятнестей по всем появлениям
 
-![](https://github.com/MakarovR/car_plate_recognition/images/pic1.gif)
+![](https://github.com/MakarovR/car_plate_recognition/blob/main/images/pic1.gif)
 
-## 6. В директории `/scripts` находятся некоторые оставшиеся скрипты
+### 6. В директории `/scripts` находятся некоторые оставшиеся скрипты
